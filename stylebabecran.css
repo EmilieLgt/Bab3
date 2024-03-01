@@ -1,101 +1,133 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-:root{--maincolor:#A306B6;
---secondcolor:white;
---articlecolor:#D9D9D9;}
+:root {
+  --maincolor: #a306b6;
+  --secondcolor: white;
+  --articlecolor: #d9d9d9;
+}
 
 body {
-    margin: 0;
-    line-height: 1.5;
-    font-family:Montserrat;
+  margin: 0;
+  line-height: 1.5;
+  font-family: Montserrat;
 }
-nav {background-color:var(--maincolor);
+nav {
+  background-color: var(--maincolor);
 }
 
-ul {list-style-type: none;
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
-    padding-left:0;
-    color:white;
-    font-weight: bold;}
-li {padding-right:10%}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 0;
+  color: white;
+  font-weight: bold;
+}
+li {
+  padding-right: 10%;
+}
 
 .imgnav {
-    width:10%;
-    display:flex;
-    justify-content: center;
-    }
+  width: 10%;
+  display: flex;
+  justify-content: center;
+}
 
-.entete {display:flex;
-        flex-direction:row;
-        justify-content:space-between;
-    padding-left:5%;
-padding-right:5%;
-padding-top:5%}
+.entete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
 
-.imgnav2{ width:20%;
-        display:flex;
-        justify-content: center;
-        padding-bottom: 3%;}
+.imgnav2 {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3%;
+}
 
-.bienvenu {display:flex;
-    flex-direction:row-reverse;
-    justify-content:space-around;
-    align-items: center;
-padding-left:5%;
-padding-right:5%;
-padding-top:5%}
+.bienvenu {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
 
 article {
-background-color: var(--articlecolor);
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin:0.5em;
-height:300px}
+  background-color: var(--articlecolor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+  height: 300px;
+}
 
-.articles {display:flex;
-    flex-direction: row;
-    justify-content: center;
-    height:80%;
-    width: 80%;
-    margin-left:12%}
-        
-.scalableimg {width: 50%;}
-        
-article>img {width: 70%;}
-        
-figcaption {font-size: 2em;
-        font-weight:600;}
-        
-button{appearance:unset;
-        color:white;
-        background-color: var(--maincolor);
-        border-radius: 5em;
-        border:none;            
-        width:5em;
-        height:3em;
-        margin-bottom: 1%;}
- h1 {color:white;
-            display:flex;
-            justify-content: center;
-            padding-bottom: 2%;
-        font-size:3.5em}
-            
-h2{color:var(--maincolor);
-    text-align: center;
-    font-size: 3em;}
+.articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80%;
+  width: 80%;
+  margin-left: 12%;
+}
 
-    p{display: flex;
-    justify-content: center;
-    text-align: justify;
-    padding-left: 20%;
-    padding-right: 20%;}
+.scalableimg {
+  width: 50%;
+}
 
-footer{text-align: center;
-        background-color: var(--articlecolor);
-        padding:2%;
-        margin-top:8%}
+article > img {
+  width: 70%;
+}
+
+figcaption {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+button {
+  appearance: unset;
+  color: white;
+  background-color: var(--maincolor);
+  border-radius: 5em;
+  border: none;
+  width: 5em;
+  height: 3em;
+  margin-bottom: 1%;
+}
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2%;
+  font-size: 3.5em;
+}
+
+h2 {
+  color: var(--maincolor);
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--articlecolor);
+  padding: 2%;
+  margin-top: 8%;
+}
